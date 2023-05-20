@@ -5,7 +5,7 @@
 @File    : __init__.py
 @Date    : 2023/5/12 10:31:05
 @Author  : zhchen
-@Desc    : 
+@Desc    : 发送一些消息
 """
 import json
 

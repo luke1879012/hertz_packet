@@ -19,6 +19,7 @@ setup(
     url='https://github.com/luke1879012/hertz_packet',
     install_requires=[
         'requests~=2.27.1',
+        'pymysql~=1.0.3',
     ],
     license='MIT',
     packages=find_packages(),
