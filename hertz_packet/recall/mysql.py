@@ -65,10 +65,10 @@ def backup_mysql_databases(host, port, username, password, output_dir):
 
 
 # 使用示例
-host = 'localhost'  # MySQL 主机名
-port = 3306  # MySQL 端口，默认为 3306
-username = 'your_username'  # MySQL 用户名
-password = 'your_password'  # MySQL 密码
-output_dir = '/path/to/backup'  # 备份文件保存目录
-
-backup_mysql_databases(host, port, username, password, output_dir)
+# host = 'localhost'  # MySQL 主机名
+# port = 3306  # MySQL 端口，默认为 3306
+# username = 'your_username'  # MySQL 用户名
+# password = 'your_password'  # MySQL 密码
+# output_dir = '/path/to/backup'  # 备份文件保存目录
+#
+# backup_mysql_databases(host, port, username, password, output_dir)
