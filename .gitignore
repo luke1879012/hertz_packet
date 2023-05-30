@@ -140,3 +140,5 @@ _output/
 __test.py
 cache
 *.cookies
+
+log
