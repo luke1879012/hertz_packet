@@ -10,7 +10,7 @@ with open("README.md", "r") as f:
 
 setup(
     name='hertz_packet',  # 包名
-    version='1.2.0',  # 版本号
+    version='1.3.0',  # 版本号
     description='release Hertz',
     long_description=long_description,
     long_description_content_type="text/markdown",
