@@ -31,7 +31,7 @@ def get_kv(_k, default=None):
     if default is not None:
         params['default'] = default
     response = requests.get(f"{note_server_url}/kv", headers=headers, params=params)
-    return response.json()['msg']
+    return response.json()
 
 
 def set_kv(_k, _v, _memo: dict = None):
