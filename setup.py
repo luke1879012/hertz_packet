@@ -10,7 +10,7 @@ with open("README.md", "r") as f:
 
 setup(
     name='hertz_packet',  # 包名
-    version='1.5.0',  # 版本号
+    version='1.6.0',  # 版本号
     description='release Hertz',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -20,6 +20,7 @@ setup(
     install_requires=[
         'requests>=2.27.1',
         'pymysql>=1.0.3',
+        'schedule>=1.2.1',
     ],
     license='MIT',
     packages=find_packages(),
