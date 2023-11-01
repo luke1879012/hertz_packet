@@ -34,6 +34,8 @@ class Logger:
         console.setLevel(logging.INFO)
         console.setFormatter(_format)
 
+        if self.logger.handlers:
+            self.logger.handlers.clear()
         self.logger.addHandler(file_handler)
         self.logger.addHandler(console)
 
