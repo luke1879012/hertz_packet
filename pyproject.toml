@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hertz_packet"
-version = "2.3.0"
+version = "2.4.0"
 description = "release Hertz"
 authors = ["luke9012 <luke781520097@163.com>"]
 readme = "README.md"
